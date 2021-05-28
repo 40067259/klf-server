@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    username: mygamesdb@mygamesdb
+    password: 120708@Ci
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mygamesdb.mysql.database.azure.com:3306/klf?useSSL=true
+  http:
+    multipart:
+      enabled: true
+server:
+  port: 8877
+
+url:
+  register: 'http://localhost:8877/user/register'
+  login: 'http://localhost:8877/user/login'
+  logout: 'http://localhost:8877/user/logout'
+
+
